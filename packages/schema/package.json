@@ -1,0 +1,20 @@
+{
+  "name": "@workflow-example/schema",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsp compile .",
+    "watch": "tsp compile . --watch",
+    "format": "tsp format **/*.tsp",
+    "lint": "echo 'No lint configured for TypeSpec'"
+  },
+  "devDependencies": {
+    "@typespec/compiler": "^0.63.0",
+    "@typespec/http": "^0.63.0",
+    "@typespec/openapi": "^0.63.0",
+    "@typespec/openapi3": "^0.63.0",
+    "@typespec/rest": "^0.63.0",
+    "@typespec/versioning": "^0.63.0"
+  }
+}
